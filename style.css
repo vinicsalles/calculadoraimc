@@ -47,7 +47,7 @@ body{
 #title::after{
     position: absolute;
     content: '';
-    background-color: #16a34a;
+    background-color: #412741;
     width: 8rem;
     height: 3px;
     bottom: 0;
@@ -100,7 +100,7 @@ body{
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
-    background-color: #16a34a;
+    background-color: #412741;
     color: #f8fafc;
     padding: 0.5rem 0;
     border-radius: 3px;
@@ -138,9 +138,14 @@ body{
 
 
 .normal {
-    color: #16a34a;
+    color: #412741;
 }
 
 .attention{
     color: #dc2626;
+}
+
+.feito {
+    display: grid;
+    justify-content: center;
 }
